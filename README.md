@@ -197,5 +197,15 @@ and LVGL doesn't handle a failed allocation. The UI avoids both.
 - "Alexa" is a trademark of Amazon. This project is not affiliated with Amazon;
   it only uses the openWakeWord model of that name.
 
+## License
+
+[CC BY-NC 4.0](LICENSE) © theoriuhd. You may use, share and adapt this project
+for **non-commercial** purposes, as long as you **credit** the author (with a
+link to this repository) and indicate any changes. For commercial use, ask first.
+
+Third-party parts keep their own licenses: the bundled fonts (Montserrat: SIL
+OFL 1.1; Font Awesome Free icons: CC BY 4.0) and the components downloaded at
+build time (ESP-IDF, LVGL and others).
+
 [openWakeWord]: https://github.com/dscripka/openWakeWord
 [Whisper]: https://github.com/home-assistant/addons/tree/master/whisper
