@@ -1,0 +1,41 @@
+# Build output and downloaded components
+.pio/
+build/
+managed_components/
+
+# Generated from sdkconfig.defaults on the first build
+sdkconfig
+sdkconfig.*
+!sdkconfig.defaults
+sdkconfig.old
+
+# Wi-Fi, Home Assistant and MQTT credentials (copy src/secrets.h.example)
+src/secrets.h
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# AI coding assistants
+.opencode/
+.claude/
+.claude-*/
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+.codex/
+.cursor/
+.cursorrules
+.gemini/
+GEMINI.md
+.copilot/
+.github/copilot-instructions.md
+.aider*
+.continue/
+.windsurf/
+.clinerules
+.roo/

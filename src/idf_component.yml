@@ -1,0 +1,8 @@
+dependencies:
+  idf: ">=5.5"
+  espressif/esp_codec_dev: "~1.5.6"
+  waveshare/esp_lcd_sh8601: "1.0.2"
+  waveshare/esp_lcd_touch_cst9217: "^1.0.3"
+  lvgl/lvgl: "~9.2.0"
+  espressif/esp_lvgl_port: "~2.7.2"
+  espressif/esp_websocket_client: "^1.4.0"
